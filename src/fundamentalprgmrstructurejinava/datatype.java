@@ -13,7 +13,7 @@ public class datatype{
         
         for(int i = 0; i < Type; i++) {
             try {
-                long Type2 = memindai.nextLong();
+                long Type2 = memindai.nextLong(); 
                 BigInteger BI = BigInteger.valueOf(Type2);
                 
                 System.out.println(Type2 + " Can be fitted in : ");
